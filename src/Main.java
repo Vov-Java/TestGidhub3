@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a = 3;
-        String b = "пробуем в изменения";
-
-        System.out.println(b + a);
+        Basket cupVolod = new Basket();
+        cupVolod.appProduct("bread",1,1);
+        System.out.println(cupVolod.getProd() + cupVolod.countPr() + cupVolod.weithPr());
     }
 }
+
